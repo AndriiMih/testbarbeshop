@@ -1,0 +1,36 @@
+html,
+body {
+	min-width: 1122px;
+	min-height: 1750px;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #000000 url("barbershop-index-grid.jpg") no-repeat 50% 3px;
+	background-size: 1122px auto;
+}
+
+.main-header {
+	/*Только для оформления сетки*/
+	min-height: 70px;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+	
+	/*Только для оформления сетки*/
+	min-height: 70px;
+}
+
+.main-navigation {
+	/*Только для оформления сетки*/
+	min-heght: 70px;
+}
+
+.user-block {
+	/*Только для оформления сетки*/
+	min-height: 70px;
+}
