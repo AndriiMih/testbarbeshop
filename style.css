@@ -7,13 +7,14 @@ body {
 }
 
 body {
-	background: #000000 url("barbershop-index-grid.jpg") no-repeat 50% 3px;
-	background-size: 1122px auto;
+	/*background: #000000 url("barbershop-index-grid.jpg") no-repeat 50% 3px;
+	background-size: 1122px auto;*/
 }
 
 .main-header {
 	/*Только для оформления сетки*/
 	min-height: 70px;
+	background-color: black;
 }
 
 .container {
@@ -21,16 +22,31 @@ body {
 	margin: 0 auto;
 	padding: 0 10px;
 	
-	/*Только для оформления сетки*/
-	min-height: 70px;
+	
 }
 
 .main-navigation {
+	float: left;
+	width: 780px;
+	background-color: green;
 	/*Только для оформления сетки*/
-	min-heght: 70px;
+	min-height: 70px;
 }
 
 .user-block {
+	float: right;
+	width: 140px;
+	background-color: yellow;
 	/*Только для оформления сетки*/
+	
 	min-height: 70px;
+}
+
+.clearfix::after {
+	content: "lorem ipsum";
+	display: block;
+	clear: both;
+	height: 20px;
+	background-color: red;
+	background-size: 20px;
 }
