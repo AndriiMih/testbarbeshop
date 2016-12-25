@@ -12,6 +12,7 @@ body {
 }
 
 .main-header {
+	margin-bottom: 60px;
 	/*Только для оформления сетки*/
 	min-height: 70px;
 	background-color: black;
@@ -21,6 +22,7 @@ body {
 	width: 940px;
 	margin: 0 auto;
 	padding: 0 10px;
+	background-color: #123456;
 	
 	
 }
@@ -43,10 +45,88 @@ body {
 }
 
 .clearfix::after {
-	content: "lorem ipsum";
-	display: block;
+	content: "";
+	display: table;
 	clear: both;
-	height: 20px;
+	
+}
+
+.index-logo {
+	height: 204px;
+	width: 368px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 25px;
+}
+
+.features {
+	margin-bottom: 80px;
+}
+
+.features-item {
+	float: left;
+	width: 300px;
+	margin-right: 20px;
+	/*Только для оформления сетки*/
+	min-height: 175px;
+	background-color: yellow;
+}
+
+.features-item:last-child {
+	margin-right: 0;
+} 
+
+.index-content {
+	margin-bottom: 35px;
+	padding: 50px 80px;
+	/*Только для оформления сетки*/
+	background-color: yellow;
+}
+
+.index-content-left {
+	float: left;
+	width: 380px;
+	/*Только для оформления сетки*/
+	min-height: 330px;
+	background-color: #987654;
+}
+
+.index-content-right{
+	float: right;
+	width: 300px;
+	/*только для оформления сетки*/
+	min-height: 330px;
+	background-color: #678900;
+}
+
+.main-footer {
+	margin-top: 65px;
+	padding-top: 60px;
+	padding-bottom: 40px;
+	background-color: grey;
+}
+
+.footer-contacts {
+	float: left;
+	width: 320px;
+	margin-right: 60px;
+	/*Только для оформления сетки*/
+	min-height: 90px;
+	background-color: yellow;
+}
+
+.footer-social {
+	float: left;
+	width:180px;
+	/*Только для оформления сетки*/
+	min-height: 90px;
+	background-color: white;
+}
+
+.footer-copyright {
+	float: right;
+	width: 180px;
+	/*Только для оформления сетки*/
+	min-height: 90px;
 	background-color: red;
-	background-size: 20px;
 }
