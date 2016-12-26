@@ -1,7 +1,8 @@
 html,
 body {
-	min-width: 1122px;
-	min-height: 1750px;
+	/*min-width: 1122px;
+	min-height: 1750px;*/
+	min-width: 960px;
 	margin: 0;
 	padding: 0;
 }
