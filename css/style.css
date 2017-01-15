@@ -179,14 +179,16 @@ body {
 	margin-bottom: 35px;
 	padding: 50px 80px;
 	color: #000000;
-	background: #f8f5f2 url(../img/pattern-white.jpg);
+	background: 
+	url("../img/index-content-shadow.png") no-repeat center,
+	#f8f5f2 url(../img/pattern-white.jpg);
 	/*Только для оформления сетки*/
 	background-color: yellow;
 }
 
 .index-content-left {
 	float: left;
-	width: 380px;
+	width: 480px;
 	/*Только для оформления сетки*/
 	min-height: 330px;
 	background-color: #987654;
@@ -198,6 +200,49 @@ body {
 	/*только для оформления сетки*/
 	min-height: 330px;
 	background-color: #678900;
+}
+
+.index-content p {
+	margin: 0;
+	margin-bottom: 25px;
+}
+
+.news-preview {
+	margin: 0;
+	padding: 0;
+	padding-right: 35px;
+	list-style: none;
+}
+
+.news-preview li {
+	margin-bottom: 25px;
+}
+
+.news-preview p {
+	margin-bottom: 0;
+}
+
+.news-preview time {
+	text-transform: none;
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px 33px;
+	margin-right: 16px;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 24px;
+	font-family: "PT Sans Narrow", "Arial", sans-serif;
+	color: #ffffff;
+	vertical-align: top;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: #000000;
+	border: none;
+	outline: none;
+	cursor: pointer;
 }
 
 .main-footer {
